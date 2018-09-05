@@ -203,6 +203,40 @@ isNumber('string', function(err, res) {
 
 ```
 
+#### isOdd()
+
+Check if a number is odd
+
+```js
+var isOdd = require('callbaxx').isOdd;
+
+isOdd(11, function(err, res) {
+  if (res) {
+    console.log('Odd number detected!');
+  }
+});
+
+// Output: Odd number detected!
+
+```
+
+#### isEven()
+
+Check if a number is even
+
+```js
+var isEven = require('callbaxx').isEven;
+
+isEven(8, function(err, res) {
+  if (res) {
+    console.log('Even number detected!');
+  }
+});
+
+// Output: Even number detected!
+
+```
+
 ### Objects
 
 #### isObject()

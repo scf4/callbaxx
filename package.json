@@ -20,6 +20,8 @@
   },
   "homepage": "https://github.com/scf4/callbaxx#readme",
   "dependencies": {
+    "is-even": "^1.0.0",
+    "is-odd": "^3.0.1",
     "lodash": "^4.17.10"
   }
 }
