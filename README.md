@@ -33,7 +33,85 @@ var callbaxx = require('callbaxx');
 
 All functions are *error first*. This means the first argument of the callback is an error (hopefully null), and the second argument is the result of the function.
 
-### add
+## Docs
+
+### Arrays
+
+#### isArray()
+
+Check if a value is an array
+
+```js
+var isArray = require('callbaxx').isArray;
+
+var myArr = [1, 2, 3];
+
+isArray(myArr, function(err, res) {
+  if (res) {
+    console.log('Wow what an array! It has ' + myArr.length + ' items.');
+  } else {
+    console.log('Hmm that does not look like an array...');
+  }
+});
+
+// Output: Wow what an array! It has 3 items.
+
+```
+
+#### map()
+
+Returns a new array with a provided function called on each item of the provided array
+
+```js
+var map = require('callbaxx').map;
+
+map([1, 4, 9, 16, 25], Math.sqrt, function(err, res) {
+  console.log(res);
+});
+
+// Output: [1, 2, 3, 4, 5]
+
+```
+
+### Booleans
+
+#### isTrue()
+
+Check if a value is equal to true
+
+```js
+var isTrue = require('callbaxx').isTrue;
+
+isTrue(true, function(err, res) {
+  if (res) {
+    console.log('It is true!');
+  }
+});
+
+// Output: It is true!
+```
+
+#### isFalse()
+
+Check if a value is equal to false
+
+```js
+var isFalse = require('callbaxx').isFalse;
+
+isFalse(123, function(err, res) {
+  if (res) {
+    console.log('It is false!');
+  } else {
+    console.log('It is NOT false!');
+  }
+});
+
+// Output: It is NOT false!
+```
+
+### Numbers
+
+#### add()
 
 Add two numbers together
 
@@ -47,7 +125,54 @@ add(40, 2, function(err, res) {
 // Output: The result is 42!
 
 ```
-### isNumber
+
+#### divide()
+
+Divides the first number by the second number
+
+```js
+var divide = require('callbaxx').divide;
+
+divide(25, 5, function(err, res) {
+  console.log(res);
+});
+
+// Output: 5
+
+```
+
+#### multiply()
+
+Multiplies two numbers together
+
+```js
+var multiply = require('callbaxx').multiply;
+
+multiply(6, 7, function(err, res) {
+  console.log(res);
+});
+
+// Output: 42
+
+```
+
+#### subtract()
+
+Subtracts the second number from the first number
+
+```js
+var subtract = require('callbaxx').subtract;
+
+subtract(50, 8, function(err, res) {
+  console.log('The result is ' + res + '!');
+});
+
+// Output: The result is 42!
+```
+
+
+
+#### isNumber()
 
 Check if a value is a number
 
@@ -76,36 +201,9 @@ isNumber('string', function(err, res) {
 
 ```
 
-### isTrue
+### Strings
 
-```js
-var isTrue = require('callbaxx').isTrue;
-
-// Check if value is equal to true
-isTrue(true, function(err, res) {
-  if (res) {
-    console.log('It is true!');
-  }
-});
-
-// Output: It is true!
-```
-
-### subtract
-
-Subtracts the second number from the first number
-
-```js
-var subtract = require('callbaxx').subtract;
-
-subtract(50, 8, function(err, res) {
-  console.log('The result is ' + res + '!');
-});
-
-// Output: The result is 42!
-```
-
-### toLowerCase
+#### toLowerCase()
 
 Converts a string to lower case
 
@@ -120,7 +218,7 @@ toLowerCase('FoO BaR!', function(err, res) {
 ```
 
 
-### toUpperCase
+#### toUpperCase()
 
 Converts a string to upper case
 
