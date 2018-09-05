@@ -3,6 +3,11 @@
 <h1 align="center">🔥 Callbaxx 🔥</h1>
 
 <p align="center">⭐️⭐️⭐️</p>
+  
+[![GitHub issues](https://img.shields.io/github/issues/scf4/callbaxx.svg)](https://github.com/scf4/callbaxx/issues)
+[![npm bundle size (minified)](https://img.shields.io/bundlephobia/min/callbaxx.svg)]()
+[![GitHub stars](https://img.shields.io/github/stars/scf4/callbaxx.svg)](https://bundlephobia.com/result?p=callbax)
+
 
 In recent years, a vocal portion of the JS community has forced the usage of "ES6" (essentially an entirely new language) onto the rest of the JS community. Proponents of this new language (known as "sixers") have been given free reign to make changes nobody asked for: a broken and incompatible module system, new language syntax like promises, async/await, rest/spread operators, "functional" features, and so on.  
 
@@ -253,3 +258,7 @@ toUpperCase('hello world', function(err, res) {
 
 // Output: HELLO WORLD
 ```
+
+## License
+
+Callbaxx is [MIT licensed](LICENSE).
