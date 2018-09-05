@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/scf4/callbaxx/issues"
   },
-  "homepage": "https://github.com/scf4/callbaxx#readme"
+  "homepage": "https://github.com/scf4/callbaxx#readme",
+  "dependencies": {
+    "lodash": "^4.17.10"
+  }
 }
