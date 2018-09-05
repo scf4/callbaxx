@@ -170,8 +170,6 @@ subtract(50, 8, function(err, res) {
 // Output: The result is 42!
 ```
 
-
-
 #### isNumber()
 
 Check if a value is a number
@@ -198,6 +196,30 @@ isNumber('string', function(err, res) {
 });
 
 // Output: No, that is not a number, sorry
+
+```
+
+### Objects
+
+#### isObject()
+
+Check if a value is an object
+
+```js
+var isObject = require('callbaxx').isObject;
+var isTrue = require('callbaxx').isTrue;
+
+var myObj = { abc: 123 };
+
+isObject(myObj, function(err1, objRes) {
+  isTrue(objRes, function(err2, res) {
+    if (res) { 
+      console.log('This is an object!');
+    }
+  });
+});
+
+// Output: This is an object!
 
 ```
 
