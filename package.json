@@ -1,6 +1,6 @@
 {
   "name": "callbaxx",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "A JS utility library to bring back classic callback style programming to the masses",
   "main": "index.js",
   "directories": {
