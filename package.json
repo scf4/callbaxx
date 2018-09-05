@@ -1,0 +1,22 @@
+{
+  "name": "callbaxx",
+  "version": "0.1.0",
+  "description": "A JS utility library to bring back classic callback style programming to the masses",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scf4/callbaxx.git"
+  },
+  "author": "@scf4",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/scf4/callbaxx/issues"
+  },
+  "homepage": "https://github.com/scf4/callbaxx#readme"
+}
