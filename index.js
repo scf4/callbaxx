@@ -1,15 +1,13 @@
-var add = require('./lib/add');
-var isNumber = require('./lib/isNumber');
-var isTrue = require('./lib/isTrue');
-var subtract = require('./lib/subtract');
-var toLowerCase = require('./lib/toLowerCase');
-var toUpperCase = require('./lib/toUpperCase');
-
 module.exports = {
-  add: add,
-  isNumber: isNumber,
-  isTrue: isTrue,
-  subtract: subtract,
-  toLowerCase: toLowerCase,
-  toUpperCase: toUpperCase,
+  add: require('./lib/add'),
+  divide: require('./lib/divide'),
+  isArray: require('./lib/isArray'),
+  isFalse: require('./lib/isFalse'),
+  isNumber: require('./lib/isNumber'),
+  isTrue: require('./lib/isTrue'),
+  map: require('./lib/map'),
+  multiply: require('./lib/multiply'),
+  subtract: require('./lib/subtract'),
+  toLowerCase: require('./lib/toLowerCase'),
+  toUpperCase: require('./lib/toUpperCase')
 };
