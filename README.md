@@ -8,9 +8,9 @@
  [![npm bundle size (minified)](https://img.shields.io/bundlephobia/min/callbaxx.svg)]()
  [![GitHub stars](https://img.shields.io/github/stars/scf4/callbaxx.svg)](https://bundlephobia.com/result?p=callbax)
 
-In recent years, a vocal portion of the JS community has forced the usage of "ES6" (essentially an entirely new language) onto the rest of the JS community. Proponents of this new language (known as "sixers") have been given free reign to make changes nobody asked for: a broken and incompatible module system, new language syntax like promises, async/await, rest/spread operators, "functional" features, and so on.  
+In recent years, a vocal portion of the JS community has forced the usage of "ES6" (essentially an entirely new language) onto the rest of the JS community. Proponents of this new language (known as "sixers") have been given free reign to make changes nobody asked for: a broken and incompatible module system, new language syntax like promises, async/await, rest/spread operators, "functional" features, and so on.
 
-JavaScript is now virtually unrecognizable. In fact, many people new to the language aren't even familiar with callbacks. 
+JavaScript is now virtually unrecognizable. In fact, many people new to the language aren't even familiar with callbacks.
 
 This utility library aims to bring back classic JavaScript to the masses, with plenty of callbacks.
 
@@ -18,11 +18,11 @@ This utility library aims to bring back classic JavaScript to the masses, with p
 
 Whether you're a classic JS developer who understands the beauty of real JavaScript  — *which still works just fine by the way* — or a new developer wary of current trends and looking for a timeless way to code for the web, this library is for you.
 
-If you want to spend weeks playing around with webpacks and babble scripts and trying to keep up with new changes to the language, then this is not for you. 
+If you want to spend weeks playing around with webpacks and babble scripts and trying to keep up with new changes to the language, then this is not for you.
 
 This library is for real programmers who aren't afraid to get their hands a little dirty with real code.
 
-## Roadmap 🚘 
+## Roadmap 🚘
 
 **Callbaxx** is a brand new NPM package and is still under development. Please submit PRs to add your own functions!
 
@@ -74,6 +74,21 @@ map([1, 4, 9, 16, 25], Math.sqrt, function(err, res) {
 });
 
 // Output: [1, 2, 3, 4, 5]
+
+```
+
+#### reduce()
+
+Smoosh a given array into a single value
+
+```js
+var reduce = require('callbaxx').map;
+
+reduce([1, 2, 3], function (a, b) { return a + b }, 0, function(err, res) {
+    console.log(res);
+});
+
+// Output: 6
 
 ```
 
@@ -251,7 +266,7 @@ var myObj = { abc: 123 };
 
 isObject(myObj, function(err1, objRes) {
   isTrue(objRes, function(err2, res) {
-    if (res) { 
+    if (res) {
       console.log('This is an object!');
     }
   });
