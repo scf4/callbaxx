@@ -28,7 +28,7 @@ function fibonacci(rounds, cb) {
           seq.push(res);
         });
       }
-      // return seq array with out callback
+      // return seq array with our callback
       cb(null, seq);
     }
   });
