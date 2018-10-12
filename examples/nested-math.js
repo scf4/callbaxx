@@ -9,18 +9,21 @@
 var add = require('..').add;
 var divide = require('..').divide;
 var multiply = require('..').multiply;
+var modulo = require('..').modulo;
 var subtract = require('..').subtract;
 
 function meaningOfLife(cb) {
-  add(20, 6, function(err, res) {
-    multiply(res, 50, function(err, res) {
-      divide(res, 10, function(err, res) {
-        add(res, 70, function(err, res) {
-          divide(res, 2, function(err, res) {
-            subtract(res, 30, function(err, res) {
-              divide(res, 2, function(err, res) {
-                add(res, 7, function(err, res) {
-                  cb(res);
+  add(920, 6, function(err, res) {
+    modulo(res, 100, function(err, res) {
+      multiply(res, 50, function(err, res) {
+        divide(res, 10, function(err, res) {
+          add(res, 70, function(err, res) {
+            divide(res, 2, function(err, res) {
+              subtract(res, 30, function(err, res) {
+                divide(res, 2, function(err, res) {
+                  add(res, 7, function(err, res) {
+                    cb(res);
+                  });
                 });
               });
             });

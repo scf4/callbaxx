@@ -172,6 +172,20 @@ multiply(6, 7, function(err, res) {
 
 ```
 
+#### modulo()
+
+Finds the remainder after dividing the first number by the second number
+
+```js
+var modulo = require('callbaxx').modulo;
+
+modulo(5, 3, function(err, res) {
+  console.log(res);
+});
+
+// Output: 2
+```
+
 #### subtract()
 
 Subtracts the second number from the first number
