@@ -82,7 +82,7 @@ map([1, 4, 9, 16, 25], Math.sqrt, function(err, res) {
 Smoosh a given array into a single value
 
 ```js
-var reduce = require('callbaxx').map;
+var reduce = require('callbaxx').reduce;
 
 reduce([1, 2, 3], function (a, b) { return a + b }, 0, function(err, res) {
     console.log(res);
