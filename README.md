@@ -1,9 +1,7 @@
-<p align="center">⭐️⭐️⭐️</p>
+<div align="center">
+  <img src="https://i.imgur.com/uY5D1Y3.png" width="300px" height="87.5px" />
+</div>
 
-<h1 align="center">🔥 Callbaxx 🔥</h1>
-
-<p align="center">⭐️⭐️⭐️</p>
-  
 [![GitHub issues](https://img.shields.io/github/issues/scf4/callbaxx.svg)](https://github.com/scf4/callbaxx/issues)
 [![npm bundle size (minified)](https://img.shields.io/bundlephobia/min/callbaxx.svg)]()
 [![GitHub stars](https://img.shields.io/github/stars/scf4/callbaxx.svg)](https://bundlephobia.com/result?p=callbax)
