@@ -1,6 +1,6 @@
-<div align="center">
+<div align="center"><br />
   <img src="https://i.imgur.com/uY5D1Y3.png" width="300px" height="87.5px" />
-</div>
+<br /></div>
 
 [![GitHub issues](https://img.shields.io/github/issues/scf4/callbaxx.svg)](https://github.com/scf4/callbaxx/issues)
 [![npm bundle size (minified)](https://img.shields.io/bundlephobia/min/callbaxx.svg)]()
