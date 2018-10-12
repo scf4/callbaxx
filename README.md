@@ -1,10 +1,9 @@
 <div align="center"><br />
   <img src="https://i.imgur.com/uY5D1Y3.png" width="300px" height="87.5px" />
-<br /></div>
+  
+  <img src="https://img.shields.io/github/issues/scf4/callbaxx.svg" /> <img src="https://img.shields.io/bundlephobia/min/callbaxx.svg" /> <img src="https://img.shields.io/github/stars/scf4/callbaxx.svg" />
 
-[![GitHub issues](https://img.shields.io/github/issues/scf4/callbaxx.svg)](https://github.com/scf4/callbaxx/issues)
-[![npm bundle size (minified)](https://img.shields.io/bundlephobia/min/callbaxx.svg)]()
-[![GitHub stars](https://img.shields.io/github/stars/scf4/callbaxx.svg)](https://bundlephobia.com/result?p=callbax)
+<br /></div>
 
 In recent years, a vocal portion of the JS community has forced the usage of "ES6" (essentially an entirely new language) onto the rest of the JS community. Proponents of this new language (known as "sixers") have been given free reign to make changes nobody asked for: a broken and incompatible module system, new language syntax like promises, async/await, rest/spread operators, "functional" features, and so on.
 
