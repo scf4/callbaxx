@@ -9,6 +9,7 @@ module.exports = {
   isOdd: require('./lib/isOdd'),
   isTrue: require('./lib/isTrue'),
   map: require('./lib/map'),
+  modulo: require('./lib/modulo'),
   multiply: require('./lib/multiply'),
   subtract: require('./lib/subtract'),
   toLowerCase: require('./lib/toLowerCase'),
