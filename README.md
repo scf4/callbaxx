@@ -83,7 +83,7 @@ map([1, 2, 3, 4, 5], isOdd, function(err, res) {
   console.log(res);
 }, true); // <— Note the true parameter
 
-// Output: [true, false, true, false,]
+// Output: [true, false, true, false, true]
 ```
 
 #### reduce()
