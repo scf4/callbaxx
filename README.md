@@ -71,7 +71,19 @@ map([1, 4, 9, 16, 25], Math.sqrt, function(err, res) {
 });
 
 // Output: [1, 2, 3, 4, 5]
+```
 
+This can also be used with a function which takes a callback (such as another Callbaxx function) as long as it's error-first, just add a `true` parameter after the callback like this:
+
+```js
+var map = require('callbaxx').map;
+var isOdd = require('callbaxx').isOdd;
+
+map([1, 2, 3, 4, 5], isOdd, function(err, res) {
+  console.log(res);
+}, true); // <— Note the true parameter
+
+// Output: [true, false, true, false,]
 ```
 
 #### reduce()
