@@ -1,4 +1,4 @@
-This website was created with [Docusaurus](https://docusaurus.io/).
+# Callbaxx Docs Website
 
 # What's In This Document
 
@@ -28,7 +28,7 @@ $ yarn start
 Your project file structure should look something like this
 
 ```
-my-docusaurus/
+callbaxx/
   docs/
     doc-1.md
     doc-2.md
@@ -187,6 +187,16 @@ For more information about the navigation bar, click [here](https://docusaurus.i
 ```
 
 For more information about custom pages, click [here](https://docusaurus.io/docs/en/custom-pages).
+
+# Deploy to Github pages
+```sh
+GIT_USER=<GIT_USER> \
+  CURRENT_BRANCH=master \
+  USE_SSH=true \
+  yarn run publish-gh-pages
+```
+
+For more information about deploy, click[here](https://docusaurus.io/docs/en/publishing#using-github-pages)
 
 # Full Documentation
 
