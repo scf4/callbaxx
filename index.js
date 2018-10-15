@@ -13,5 +13,6 @@ module.exports = {
   multiply: require('./lib/multiply'),
   subtract: require('./lib/subtract'),
   toLowerCase: require('./lib/toLowerCase'),
-  toUpperCase: require('./lib/toUpperCase')
+  toUpperCase: require('./lib/toUpperCase'),
+  parseNumber: require('./lib/parseNumber')
 };
