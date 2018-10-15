@@ -14,24 +14,29 @@ const users = [
     caption: 'User1',
     // You will need to prepend the image path with your baseUrl
     // if it is not '/', like: '/test-site/img/docusaurus.svg'.
-    image: '/img/docusaurus.svg',
+    image: '/callbaxx/img/docusaurus.svg',
     infoLink: 'https://www.facebook.com',
     pinned: true,
   },
 ];
 
+const USERNAME_GITHUB = 'dantehemerson'
+const GITHUB_URL = `https://github.com/${USERNAME_GITHUB}/callbaxx`
+
 const siteConfig = {
   title: 'Callbaxx', // Title for your website.
   tagline: '🔥 JS utility library to bring classic callback style programming to synchronous code — Make JavaScript JavaScript Again!',
-  url: 'https://your-docusaurus-test-site.com', // Your website URL
-  baseUrl: '/', // Base URL for your project */
+  githubUrl: GITHUB_URL,
+  url: `https://${USERNAME_GITHUB}.github.io`, // Your website URL
+  baseUrl: '/callbaxx/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
   //   url: 'https://facebook.github.io',
   //   baseUrl: '/test-site/',
 
   // Used for publishing and more
   projectName: 'callbaxx',
-  organizationName: 'Callbaxx',
+  editUrl: `${GITHUB_URL}/edit/master/docs/`,
+  organizationName: USERNAME_GITHUB,
   // For top-level user or org sites, the organization is still the same.
   // e.g., for the https://JoelMarcey.github.io site, it would be set like...
   //   organizationName: 'JoelMarcey'
