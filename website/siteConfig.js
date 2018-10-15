@@ -43,10 +43,11 @@ const siteConfig = {
 
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
-    {doc: 'doc1', label: 'Docs'},
-    {doc: 'doc4', label: 'API'},
-    {page: 'help', label: 'Help'},
-    {blog: true, label: 'Blog'},
+    { doc: 'index', label: 'Docs' },
+    { doc: 'api-array', label: 'API Reference' },
+    { page: 'help', label: 'Help' },
+    { blog: true, label: 'Blog' },
+    { href: GITHUB_URL, label: 'Github' },
   ],
 
   // If you have users set above, you add it here:
