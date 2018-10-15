@@ -1,0 +1,15 @@
+{
+  "docs": {
+    "Getting Started": [
+    	"index",
+    	"installation"
+    ],
+    "API Reference": [
+    	"api-array",
+    	"api-boolean",
+    	"api-number",
+    	"api-object",
+    	"api-string"
+    ]    
+  }  
+}
